@@ -1,0 +1,4 @@
+[2024-07-11T11:35:23.598063Z] [ac411264f7eb] [94_1] [pyflowTaskWrapper:CallGenome+addLegacyOutputLink] [wrapperSignal] wrapperStart
+[2024-07-11T11:35:23.620910Z] [ac411264f7eb] [94_1] [pyflowTaskWrapper:CallGenome+addLegacyOutputLink] [wrapperSignal] taskStart
+[2024-07-11T11:35:23.635217Z] [ac411264f7eb] [94_1] [pyflowTaskWrapper:CallGenome+addLegacyOutputLink] [wrapperSignal] taskExitCode 0
+[2024-07-11T11:35:23.643664Z] [ac411264f7eb] [94_1] [pyflowTaskWrapper:CallGenome+addLegacyOutputLink] [wrapperSignal] taskElapsedSec 0

@@ -1,0 +1,13 @@
+Sample	bcftools	bwa	samtools	fastqc	gatk4	mosdepth	strelka	vcftools	nf-core/sarek	Nextflow
+BCFTOOLS_STATS	1.18									
+BWAMEM1_MEM		0.7.17.post1188	1.19.2							
+FASTQC				0.12.1						
+GATK4 MarkDuplicates			1.19.2		4.5.0.0					
+GATK4_APPLYBQSR					4.5.0.0					
+GATK4_BASERECALIBRATOR					4.5.0.0					
+INDEX_CRAM			1.19.2							
+Mosdepth						0.3.8				
+SAMTOOLS_STATS			1.19.2							
+STRELKA_SINGLE							2.9.10			
+VCFTOOLS_TSTV_COUNT								0.1.16		
+Workflow									v3.4.2-gb5b766d	24.4.2

@@ -1,0 +1,20 @@
+#taskLabel	taskNamespace	runState	errorCode	runStateUpdateTime
+getChromDepth_makeTmpDir		complete	0	2024-07-11T11:35:21.030140Z
+getChromDepth_sample000_makeTmpDir		complete	0	2024-07-11T11:35:21.095586Z
+getChromDepth_sample000_estimateChromDepth_000_chr22		complete	0	2024-07-11T11:35:21.310925Z
+getChromDepth_sample000_catChromDepth		complete	0	2024-07-11T11:35:21.425994Z
+getChromDepth_mergeChromDepth		complete	0	2024-07-11T11:35:21.540891Z
+getChromDepth_removeTmpDir		complete	0	2024-07-11T11:35:21.675028Z
+CallGenome		complete	0	2024-07-11T11:35:24.270446Z
+makeTmpDir	CallGenome	complete	0	2024-07-11T11:35:21.674844Z
+callGenomeSegment_chromId_000_chr22_0000	CallGenome	complete	0	2024-07-11T11:35:23.196840Z
+compressGenomeSegment_chromId_000_chr22_0000_variants	CallGenome	complete	0	2024-07-11T11:35:23.315427Z
+compressGenomeSegment_chromId_000_chr22_0000_gVCF_S1	CallGenome	complete	0	2024-07-11T11:35:23.315562Z
+completedAllGenomeSegments	CallGenome	complete	0	2024-07-11T11:35:23.315800Z
+variants_concat_vcf	CallGenome	complete	0	2024-07-11T11:35:23.434775Z
+variants_index_vcf	CallGenome	complete	0	2024-07-11T11:35:23.551228Z
+gVCF_S1_concat_vcf	CallGenome	complete	0	2024-07-11T11:35:23.434625Z
+gVCF_S1_index_vcf	CallGenome	complete	0	2024-07-11T11:35:23.551410Z
+addLegacyOutputLink	CallGenome	complete	0	2024-07-11T11:35:23.667051Z
+mergeRunStats	CallGenome	complete	0	2024-07-11T11:35:23.684006Z
+removeTmpDir	CallGenome	complete	0	2024-07-11T11:35:23.805398Z
