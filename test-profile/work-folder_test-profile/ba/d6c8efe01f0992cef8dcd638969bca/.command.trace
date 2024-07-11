@@ -1,0 +1,17 @@
+nextflow.trace/v2
+realtime=4321
+%cpu=1050
+cpu_model=Intel(R) Core(TM) i7-6560U CPU @ 2.20GHz
+rchar=70586661
+wchar=21154045
+syscr=6904
+syscw=302
+read_bytes=81469440
+write_bytes=21360640
+%mem=10
+vmem=622840
+rss=78400
+peak_vmem=683412
+peak_rss=78400
+vol_ctxt=2162
+inv_ctxt=113

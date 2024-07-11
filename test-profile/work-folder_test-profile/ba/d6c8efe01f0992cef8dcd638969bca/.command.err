@@ -1,0 +1,24 @@
+
+  /// MultiQC 🔍 | v1.21
+
+|            config | Config 'custom_logo' path not found, skipping (nf-core-sarek_logo_light.png)
+|            config | Config 'custom_logo' path not found, skipping (nf-core-sarek_logo_light.png)
+|           multiqc | MultiQC Version v1.23 now available!
+|           multiqc | Only using modules: custom_content, fastqc, fastp, picard, samtools, mosdepth, gatk, bcftools, vcftools, snpeff, vep
+|           multiqc | Search path : /home/simon/Uni/Arbeit/sarek/work/ba/d6c8efe01f0992cef8dcd638969bca
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 24/24  
+|    custom_content | nf-core-sarek-summary: Found 1 sample (html)
+|    custom_content | nf-core-sarek-methods-description: Found 1 sample (html)
+|            fastqc | Found 4 reports
+|            picard | Found 1 MarkDuplicates reports
+|          samtools | Found 1 stats reports
+|          mosdepth | Found reports for 1 samples
+| base_recalibrator | Found 1 BaseRecalibrator reports
+|          bargraph | Tried to make bar plot, but had no data: bcftools-stats-subtypes
+|          bcftools | Found 1 stats reports
+|          vcftools | Found 1 TsTv.count reports
+|          vcftools | Found 1 TsTv.qual reports
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | Plots       : multiqc_plots
+|           multiqc | MultiQC complete

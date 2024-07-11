@@ -1,0 +1,36 @@
+Using GATK jar /usr/local/share/gatk4-4.5.0.0-0/gatk-package-4.5.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx3276M -XX:-UsePerfData -jar /usr/local/share/gatk4-4.5.0.0-0/gatk-package-4.5.0.0-local.jar ApplyBQSR --input test.md.cram --output test.recal.cram --reference genome.fasta --bqsr-recal-file test.recal.table --intervals chr22_1-40001.bed --tmp-dir .
+11:35:09.345 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/usr/local/share/gatk4-4.5.0.0-0/gatk-package-4.5.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+11:35:09.546 INFO  ApplyBQSR - ------------------------------------------------------------
+11:35:09.551 INFO  ApplyBQSR - The Genome Analysis Toolkit (GATK) v4.5.0.0
+11:35:09.551 INFO  ApplyBQSR - For support and documentation go to https://software.broadinstitute.org/gatk/
+11:35:09.551 INFO  ApplyBQSR - Executing as ?@650d802f6bab on Linux v6.5.0-41-generic amd64
+11:35:09.552 INFO  ApplyBQSR - Java runtime: OpenJDK 64-Bit Server VM v17.0.10-internal+0-adhoc..src
+11:35:09.552 INFO  ApplyBQSR - Start Date/Time: July 11, 2024 at 11:35:09 AM GMT
+11:35:09.552 INFO  ApplyBQSR - ------------------------------------------------------------
+11:35:09.552 INFO  ApplyBQSR - ------------------------------------------------------------
+11:35:09.554 INFO  ApplyBQSR - HTSJDK Version: 4.1.0
+11:35:09.554 INFO  ApplyBQSR - Picard Version: 3.1.1
+11:35:09.554 INFO  ApplyBQSR - Built for Spark Version: 3.5.0
+11:35:09.554 INFO  ApplyBQSR - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+11:35:09.555 INFO  ApplyBQSR - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+11:35:09.555 INFO  ApplyBQSR - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+11:35:09.555 INFO  ApplyBQSR - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+11:35:09.555 INFO  ApplyBQSR - Deflater: IntelDeflater
+11:35:09.556 INFO  ApplyBQSR - Inflater: IntelInflater
+11:35:09.556 INFO  ApplyBQSR - GCS max retries/reopens: 20
+11:35:09.556 INFO  ApplyBQSR - Requester pays: disabled
+11:35:09.557 INFO  ApplyBQSR - Initializing engine
+11:35:09.831 INFO  FeatureManager - Using codec BEDCodec to read file file:///home/simon/Uni/Arbeit/sarek/work/80/489d6e6fac56dc81052652e10f3dc2/chr22_1-40001.bed
+11:35:09.849 INFO  IntervalArgumentCollection - Processing 40001 bp from intervals
+11:35:09.857 INFO  ApplyBQSR - Done initializing engine
+11:35:09.884 INFO  ProgressMeter - Starting traversal
+11:35:09.884 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Reads Processed     Reads/Minute
+11:35:13.992 INFO  ApplyBQSR - 0 read(s) filtered by: WellformedReadFilter 
+
+11:35:13.993 INFO  ProgressMeter -          chr22:38167              0.1                 37424         546734.8
+11:35:13.993 INFO  ProgressMeter - Traversal complete. Processed 37424 total reads in 0.1 minutes.
+11:35:14.155 INFO  ApplyBQSR - Shutting down engine
+[July 11, 2024 at 11:35:14 AM GMT] org.broadinstitute.hellbender.tools.walkers.bqsr.ApplyBQSR done. Elapsed time: 0.08 minutes.
+Runtime.totalMemory()=320864256

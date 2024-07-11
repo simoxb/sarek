@@ -1,0 +1,1 @@
+/home/simon/Uni/Arbeit/sarek/work/36/0966ff99fda77a495dc962c938d95f/test.strelka.variants.bcftools_stats.txt
